@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(./img/header_bg\ 1\ \(2\).jpg);
+    width: 1349.4px;
+    height: 668px;
+}
+nav{
+    display: flex;
+}
+nav h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding: 50px;
+}
+ul{
+    margin-left: 450px;
+    padding: 50px;
+    display: flex;
+    list-style: none;
+
+}
+ul li a{
+    padding: 80px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+}
+ul button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background: #68BF3C;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav_text{
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.nav_text span{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 900;
+}
+.nav_text h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 900;
+}
+.nav_text p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+}
+.nav_text button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background: #68BF3C;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.main_img{
+    width: 1000px;
+    display: flex;
+    margin-top: 120px;
+    max-width: 1000px;
+    margin-left: 120px;
+}
+.main_img img{
+    width: 300px;
+}
+.main_img_text h1{
+    color: #68BF3C;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+.main_img_text span{
+    margin-top: 20px;
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main_img_text p{
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.menu h1{
+    color: #68CD16;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.menu_img{
+    display: flex;
+    margin-left: 120px;
+}
+.menu_img_text h2{
+    color: #A6A6A6;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.menu_img_text p{
+    color: #666;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.menu_img_button{
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.menu_img_button button{
+    border-radius: 30px;
+    background: #68BF3C;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu_img_button span{
+    color: #A6A6A6;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+.image{
+    display: flex;
+    margin-top: 100px;
+}
+.image_img{
+    padding: 40px;
+    width: 363px;
+    height: 75px;
+    text-align: center;
+}
+.image_img h3{
+    color: #A6A6A6;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.image_img p{
+    color: #A6A6A6;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+footer{
+    background: #060503;
+    width: 1349.4px;
+    height: 160px;
+    margin-top: 400px;
+}
+footer{
+    display: flex;
+}
+footer h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding: 50px;
+}
+.ul{
+    margin-left: 450px;
+    padding: 50px;
+    display: flex;
+    list-style: none;
+
+}
+.ul .li a{
+    padding: 80px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+}
+ul button{
+    margin-top: -8px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background: #68BF3C;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+.span{
+    position: absolute;
+    width: 429px;
+    height: 28px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;    
+    font-weight: 100;
+    margin-top: -30px;
+    margin-left: 500px;
+}

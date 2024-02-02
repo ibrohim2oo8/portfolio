@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: url( img/header_bg\ 1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+.header_text{
+    margin-left: 100px;
+    padding-top: 250px;
+}
+.header_text p{
+    color: var(--Dark-blue, #70869D);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+}
+.header_text h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+}
+.asos{
+    max-width: 1000px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    gap: 20px;
+}
+.asos_rasm{
+    display: flex;
+}
+.asos_rasm .asos_text span{
+    color: var(--Blue, #1F3750);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.asos_rasm .asos_text p{
+    color: var(--Dark-blue, #70869D);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+}
+.asos_rasm .asos_text button{
+    width: 160px;
+    height: 40px;
+    background: rgba(196, 196, 196, 0.50);
+    border: none;
+}
+.asos_rasm:hover{
+    border: 1px solid #000;
+    transition: .5s;
+}
+.asos_text button:hover{
+    background: #0092B6;
+    color: white;
+    transition: .5s;
+}
+.mevalar{
+    display: flex;
+    width: 1110px;
+    margin: auto;
+    height: 555px;
+    border-radius: 125px;
+    border: 1px solid #000;
+    background: #F3F9FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+}
+.mevalar_rasm{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.mevalar_rasm h5{
+    color: #1F3750;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
+.mevalar_rasm img{
+    width: 202px;
+    height: 202px;
+}
+.mevalar_text p{
+    color: var(--Dark-blue, #70869D);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+}
+.mevalar_text b{
+    color: #1F3750;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
+.text{
+    display: flex;
+}
+.h6{
+    margin-top: 80px;
+}
+.h6 h6{
+    color: var(--Blue, #1F3750);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.text_{
+    color: var(--Blue, #1F3750);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    margin-left: 150px;
+}
+.text_ p:hover{
+    color: #0092B6;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .5s;
+}
+footer{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 205px;
+    background: #F3F9FF;
+    margin-top: 40px;
+}
+footer h2{
+    color: var(--Blue, #1F3750);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+footer .text{
+    margin: 100px;
+}
+footer .text p{
+    padding: 25px;
+}
+footer .text p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
